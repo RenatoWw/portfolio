@@ -26,14 +26,16 @@ body {
     font-weight: bold;
     color: #222831;
     text-align: center;
+    text-decoration: none;
 }
 
-.centered {
+main {
     position: absolute;
-    top: 45%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.greetings {
+h1 {
+    font-size: 2em;
 }
