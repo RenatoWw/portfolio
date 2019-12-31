@@ -2,9 +2,6 @@ body {
     margin: 0;
     background: #f4f4f4;
     font-family: Arial, Helvetica, sans-serif;
-    background: url('../assets/background-img.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 a {
@@ -27,27 +24,41 @@ a {
 }
 
 #greetings {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.71em;
-    line-height: 0.5em;
-    text-align: center;
+     */
+    vertical-align: middle;
+    background: url('../assets/background-img.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom top;
+    max-width: 100%;
+    /* background-size: 100%; */
+    height: 870px;
     width: 100%;
     box-sizing: content-box;
+    min-height: 500px;
 }
 
-#grettings h2 {
-    padding-top: 100px;
+#greetings .text {
+    font-size: 1.60em;
+    line-height: 0.9999em;
+    text-align: center;
+    font: bold;
+    color: #000;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #footer {
     background: #333;
     width: 100%;
-    position: fixed;
     bottom: 0;
-    height: 3em;
+    height: 3.3em;
+    font-size: 18px;
     text-decoration: inherit;
     color: #fff;
 }
@@ -55,6 +66,7 @@ a {
 #navbar {
     background: #333;
     color: #fff;
+    margin: auto;
 }
 
 #navbar ul {
@@ -65,4 +77,18 @@ a {
     display: inline;
     font-size: 20px;
     padding-right: 25px;
+}
+
+#skills {
+    background: #3e4444;
+    text-align: center;
+    height: 200px;
+    min-height: 150px;
+}
+
+#skills img {
+    width: 86px;
+    height: 86px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
